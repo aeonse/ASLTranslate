@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp">
+
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Capture Photo"
+        android:textColor="@color/white" />
+
+
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="253dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Choose Photo"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>
